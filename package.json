@@ -1,0 +1,25 @@
+{
+  "name": "rps-cli",
+  "version": "1.0.0",
+  "description": "A Rock-Paper-Scissors CLI game built with Node.js",
+  "type": "module",
+  "main": "bin/index.js",
+  "bin": {
+    "rps": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "game",
+    "rock-paper-scissors"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  }
+}
